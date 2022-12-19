@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="KakaoLogin" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="csn-dl-N1W">
+                                <rect key="frame" x="170.66666666666666" y="150" width="52" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jSG-NA-UP1">
+                                <rect key="frame" x="173" y="235" width="47" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2G5-5W-BId">
+                                <rect key="frame" x="155" y="495" width="83" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="로그아웃"/>
+                                <connections>
+                                    <action selector="LogoutAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7iL-YU-Ksc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j4h-26-4kv">
+                                <rect key="frame" x="93" y="397" width="207" height="59"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="kakao_login_medium_narrow.png"/>
+                                <connections>
+                                    <action selector="LoginAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q24-Yh-lDO"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="jSG-NA-UP1" firstAttribute="top" secondItem="csn-dl-N1W" secondAttribute="bottom" constant="61" id="7TG-1B-dxg"/>
+                            <constraint firstItem="csn-dl-N1W" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8d4-k5-dxt"/>
+                            <constraint firstItem="csn-dl-N1W" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="91" id="cUK-8f-EJS"/>
+                            <constraint firstItem="j4h-26-4kv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dcy-OT-aPH"/>
+                            <constraint firstItem="2G5-5W-BId" firstAttribute="top" secondItem="j4h-26-4kv" secondAttribute="bottom" constant="39" id="f9g-AQ-3pT"/>
+                            <constraint firstItem="2G5-5W-BId" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qI6-mx-csY"/>
+                            <constraint firstItem="j4h-26-4kv" firstAttribute="top" secondItem="jSG-NA-UP1" secondAttribute="bottom" constant="138" id="rxG-sI-b9M"/>
+                            <constraint firstItem="jSG-NA-UP1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="y6R-By-2Mc"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="EmailLabel" destination="jSG-NA-UP1" id="2us-wC-Llu"/>
+                        <outlet property="KakaoLogin" destination="j4h-26-4kv" id="hbl-TY-mLM"/>
+                        <outlet property="LogoutButton" destination="2G5-5W-BId" id="CTP-oz-hHA"/>
+                        <outlet property="NameLabel" destination="csn-dl-N1W" id="xtY-TM-81t"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.53435114503816" y="-27.464788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="kakao_login_medium_narrow.png" width="183" height="45"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

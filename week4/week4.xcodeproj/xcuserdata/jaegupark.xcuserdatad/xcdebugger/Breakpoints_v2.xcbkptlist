@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "55B26BAC-1573-4089-B523-3F1491FD8209"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "46B3F5D9-BD83-4978-A07C-9BF161DCE754"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "week4/KakaoTalkTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "KakaoTalkTableViewCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "46B3F5D9-BD83-4978-A07C-9BF161DCE754 - 7f579e3ee24e2b3d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "week4.KakaoTalkTableViewCell.lastMessageLabel.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "week4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jaegupark/Desktop/Swift/week4/week4/KakaoTalkTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "85">
+               </Location>
+               <Location
+                  uuid = "46B3F5D9-BD83-4978-A07C-9BF161DCE754 - ded120f46a64cf41"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "week4.KakaoTalkTableViewCell.lastMessageLabel.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "week4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jaegupark/Desktop/Swift/week4/week4/KakaoTalkTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "46B3F5D9-BD83-4978-A07C-9BF161DCE754 - 474237c3204d230"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "week4.KakaoTalkTableViewCell.lastMessageLabel.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "week4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jaegupark/Desktop/Swift/week4/week4/KakaoTalkTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "46B3F5D9-BD83-4978-A07C-9BF161DCE754 - d1e8939a0d7ae70e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "week4.KakaoTalkTableViewCell.lastMessageLabel.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "week4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jaegupark/Desktop/Swift/week4/week4/KakaoTalkTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  uuid = "46B3F5D9-BD83-4978-A07C-9BF161DCE754 - ebc821848c66c8ac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "week4.KakaoTalkTableViewCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; week4.KakaoTalkTableViewCell"
+                  moduleName = "week4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jaegupark/Desktop/Swift/week4/week4/KakaoTalkTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "263">
+               </Location>
+               <Location
+                  uuid = "46B3F5D9-BD83-4978-A07C-9BF161DCE754 - 824b458c08d1a68d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "week4.KakaoTalkTableViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;week4.KakaoTalkTableViewCell&gt;"
+                  moduleName = "week4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jaegupark/Desktop/Swift/week4/week4/KakaoTalkTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "220">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

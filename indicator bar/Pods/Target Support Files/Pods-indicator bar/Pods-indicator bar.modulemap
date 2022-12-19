@@ -1,0 +1,6 @@
+framework module Pods_indicator_bar {
+  umbrella header "Pods-indicator bar-umbrella.h"
+
+  export *
+  module * { export * }
+}
